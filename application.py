@@ -53,7 +53,7 @@ def files():
     data = cursor.fetchall()
     conn.close()
 
-    return jsonify({'result': 'success', 'files': data})
+    return jsonify({'result': 'success', 'files':data})
 
 
 if __name__ == '__main__':
